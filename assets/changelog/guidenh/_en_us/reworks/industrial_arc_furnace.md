@@ -25,7 +25,7 @@ The <Color id="GREEN">Industrial Arc Furnace (IAF)</Color> is an IV tier multibl
 > - New Electrode Mechanics: IAF now takes an Electrode item that determines the statistics of the machine. See further for detail as changes are comprehensive
 
 ## Construction
-The <Color id="GREEN">IAF</Color> has no tiered components. Multi-Amp and Laser energy hatches are supported for serious overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+The <Color id="GREEN">IAF</Color> has no tiered components. Multi-Amp energy hatches are supported for serious overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15548"/><ItemImage id="gregtech:gt.blockmachines:15548"/>
@@ -58,6 +58,7 @@ The <Color id="GREEN">IAF</Color> has 3 operating modes as described below. Rega
 On startup, the arc furnace must ignite the arc before processing, and after recipes are finished, a 6 second shutdown phase takes place.
 
 ### Normal Mode:
+The <Color id="GREEN">IAF</Color> processes standard arc furnace recipes in this mode, including recycling recipes. Most normal recipes may also optionally use plasma, something that is no longer possible in the singleblock arc furnace.
 
 ### Blasting Mode:
 The <Color id="GREEN">IAF</Color> can now process all EBF recipes, but at the cost of 16x the power cost. This can potentially alleviate some of the burden on your EBFs if you have the power to spare
