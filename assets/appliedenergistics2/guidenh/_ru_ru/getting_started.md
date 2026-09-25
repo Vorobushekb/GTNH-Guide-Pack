@@ -21,9 +21,8 @@ Applied Energistics 2 — это, по сути, инопланетная тех
   - Множество блоков из AE для крафта требуют <ItemImage id="gregtech:gt.metaitem.01:17028" label="right" />.
 - А вот и остальные основные материалы: <ItemImage id="minecraft:redstone" label="right" />, <ItemImage id="minecraft:diamond" label="right"/> и <ItemImage id="dreamcraft:CircuitHV"  label="right"/>. Ты наверняка уже сталкивался с ними на пути к EV тиру, поэтому их подробного описания здесь не будет.
 
-
 ## Постройка
-И вот когда всё готов, давай построим простенькую сеть хранения. Тебе надо построить по сцене ниже.
+И вот когда всё готово, давай построим простенькую сеть хранения. Тебе надо построить по сцене ниже.
 
 <GameScene zoom="5" interactive={true} width="400" height="300">
   <ImportStructure src="../assets/structures/getting_started.snbt" />
