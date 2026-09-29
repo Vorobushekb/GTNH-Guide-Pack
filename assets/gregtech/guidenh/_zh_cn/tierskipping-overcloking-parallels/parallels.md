@@ -2,7 +2,7 @@
 navigation:
   title: "并行"
   icon: gregtech:gt.blockmachines:31041
-  parent: T-O-P-index.md
+  parent: T_O_P_index.md
   position: -3
 ---
 
@@ -15,14 +15,14 @@ navigation:
 
 机器以并行运行时：消耗功率变为 (实际并行数 × 配方实际功率)，所有物料消耗与产出乘以实际并行数，时间保持不变。
 
-并行后，多方块机器才会计算并尝试 **[超频](overclocking.md)**（如果 [额定功率](T-O-P-index.md#额定功率) 仍然足够）。并行和批处理是两个互不相干的功能。
+并行后，多方块机器才会计算并尝试 **[超频](overclocking.md)**（如果 [额定功率](T_O_P_index.md#额定功率) 仍然足够）。并行和批处理是两个互不相干的功能。
 
 # 最大并行数
 
 多方块机器拥有并行调节窗口，最大并行可手动调低。
 
 - 未特别说明的机器默认并行为 1（如<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />）
-- <ItemLink id="gregtech:gt.blockmachines:12730" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:12731" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:12738" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:13366" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:13367" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" />的最大并行数为固定值 256
+- <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15518" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15516" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15515" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15569" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" />的最大并行数为固定值 256
 - 大部分机器按电压或结构方块等级计算。Tooltip 中"每个电压等级提供 $$x$$ 并行"按所有能源仓的电压输入之和计算，最高 15（MAX+）
 
 仅<ItemLink id="gregtech:gt.blockmachines:1003" showIcon="left" />和<ItemLink id="gregtech:gt.blockmachines:1132" showIcon="left" />拥有跨配方并行，同次并行可包含多个来源的配方。
