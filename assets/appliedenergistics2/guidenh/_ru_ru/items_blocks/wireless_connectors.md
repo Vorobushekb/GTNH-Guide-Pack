@@ -1,6 +1,6 @@
-﻿---
+---
 navigation:
-  parent: /items-blocks-index.md
+  parent: /items_blocks_index.md
   title: Беспроводные соединители
   icon: appliedenergistics2:tile.BlockWirelessConnector
 categories:
@@ -16,4 +16,3 @@ item_ids:
 
 <ItemImage id="appliedenergistics2:tile.BlockWirelessHub" scale="4"/>
 </Row>
-

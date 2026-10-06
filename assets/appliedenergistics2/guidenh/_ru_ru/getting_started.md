@@ -36,7 +36,7 @@ Applied Energistics 2 — это, по сути, инопланетная тех
 - <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true"/> обеспечивает [каналы](./ae2-mechanics/channels.md) для всей сети.
 - <ItemLink id="appliedenergistics2:item.ItemMultiPart:36" showIcon="true"/> подключает все компоненты к сети.
 - <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" showIcon="true"/> кладётся в <ItemLink id="appliedenergistics2:tile.BlockDrive" showIcon="true"/> для получения места для хранения.
-- <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="true"/> размезается рядом с сундуком для того, чтобы объединить его объём с МЭ сетью.
+- <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="true"/> размещается рядом с сундуком для того, чтобы объединить его объём с МЭ сетью.
 - <ItemLink id="appliedenergistics2:item.ItemMultiPart:380" showIcon="true"/> позволяет игрокам взаимодействовать с МЭ сетью и её хранилищем.
 
 Теперь ты можешь нажать ПКМ по терминалу для открытия МЭ сети хранения, класть и доставать предметы из терминала также, как делали бы с обычным сундуком. Предметы вручную помещённые в сундук будут отображаться в МЭ терминале . На этом этапе ты успешно построил МЭ сеть хранения, но это лишь верхушка айсберга МЭ сетей. Продолжайте изучать руководство, чтобы узнать больше
